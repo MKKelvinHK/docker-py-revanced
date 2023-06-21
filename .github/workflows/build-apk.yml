@@ -40,7 +40,7 @@ on:
         type: boolean
         description: 'Run the build with tmate debugging enabled.'
         required: false
-        default: true
+        default: false
 
 concurrency:
   group: ${{ github.head_ref || github.run_id }}
@@ -69,7 +69,7 @@ jobs:
       - name: Get Date
         id: get-date
         run: |
-          echo "date=$(TZ='Asia/Kolkata' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_OUTPUT
+          echo "date=$(TZ='Asia/Tokyo' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_OUTPUT
           curl https://github.com/nikhilbadyal/docker-py-revanced/blob/changelogs/changelog.md > changelog.md
 
       - name: Upload Build Artifact
