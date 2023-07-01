@@ -5,7 +5,7 @@ on:
 
 jobs:
   analyze:
-    if: github.repository == 'nikhilbadyal/docker-py-revanced'
+    if: github.repository == 'mkkelvinhk/docker-py-revanced'
     name: Analyze
     runs-on: ubuntu-latest
     permissions:
