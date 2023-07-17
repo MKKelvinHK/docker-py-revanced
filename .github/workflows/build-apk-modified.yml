@@ -25,12 +25,7 @@ on:
         description: "Scan apks with VirusTotal"
         required: false
         type: boolean
-        default: false
-      CLEANUP:
-        description: "Clear GitHub(Useful if Telegram upload is enabled)"
-        required: false
-        type: boolean
-        default: false
+        default: true
       COMMIT_CHANGELOG:
         description: "Update Changelog"
         type: boolean
@@ -53,6 +48,7 @@ jobs:
       DEBUG_ENABLED: ${{ inputs.DEBUG_ENABLED }}
     secrets:
       ENVS: ${{ secrets.ENVS }}
+      REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
 
   upload-to-github:
     name: GitHub Upload
@@ -69,14 +65,8 @@ jobs:
       - name: Get Date
         id: get-date
         run: |
-          echo "date=$(TZ='Asia/Kolkata' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_OUTPUT
+          echo "date=$(TZ='Asia/Tokyo' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_OUTPUT
           curl https://github.com/nikhilbadyal/docker-py-revanced/blob/changelogs/changelog.md > changelog.md
-
-      - name: Delete Older Releases
-        uses: nikhilbadyal/ghaction-rm-releases@v0.0.2
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_PATTERN: "Build*"
 
       - name: Upload Build Artifact
         uses: ncipollo/release-action@v1.12.0
@@ -131,13 +121,3 @@ jobs:
       ASSETS_PATTERN: ${{ secrets.ASSETS_PATTERN }}
       SEND_MESSAGE: ${{ secrets.SEND_MESSAGE }}
       MESSAGE: ${{ secrets.MESSAGE_ROOT }}
-
-
-  cleanup:
-    name: GitHub Cleanup
-    if: inputs.CLEANUP
-    needs: [ upload-to-telegram ]
-    uses: ./.github/workflows/github-cleanup.yml
-    secrets:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
