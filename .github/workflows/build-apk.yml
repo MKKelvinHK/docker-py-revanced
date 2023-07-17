@@ -25,7 +25,7 @@ on:
         description: "Scan apks with VirusTotal"
         required: false
         type: boolean
-        default: true
+        default: false
       CLEANUP:
         description: "Clear GitHub(Useful if Telegram upload is enabled)"
         required: false
@@ -72,6 +72,12 @@ jobs:
         run: |
           echo "date=$(TZ='Asia/Tokyo' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_OUTPUT
           curl https://github.com/nikhilbadyal/docker-py-revanced/blob/changelogs/changelog.md > changelog.md
+
+      - name: Delete Older Releases
+        uses: nikhilbadyal/ghaction-rm-releases@v0.0.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_PATTERN: "Build*"
 
       - name: Upload Build Artifact
         uses: ncipollo/release-action@v1.12.0

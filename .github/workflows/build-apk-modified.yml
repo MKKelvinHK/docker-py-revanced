@@ -66,7 +66,7 @@ jobs:
         id: get-date
         run: |
           echo "date=$(TZ='Asia/Tokyo' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_OUTPUT
-          curl https://github.com/nikhilbadyal/docker-py-revanced/blob/changelogs/changelog.md > changelog.md
+          curl https://github.com/mkkelvinhk/docker-py-revanced/blob/changelogs/changelog.md > changelog.md
 
       - name: Upload Build Artifact
         uses: ncipollo/release-action@v1.12.0

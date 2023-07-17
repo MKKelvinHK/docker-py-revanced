@@ -14,7 +14,7 @@ possible_archs = ["armeabi-v7a", "x86", "x86_64", "arm64-v8a"]
 
 def update_changelog(name: str, response: Dict[str, str]) -> None:
     """Updated Changelog."""
-    parent_repo = "https://github.com/nikhilbadyal/docker-py-revanced"
+    parent_repo = "https://github.com/mkkelvinhk/docker-py-revanced"
     file1 = open("changelog.md", "a", encoding="utf_8")
     collapse_start = f"\n<details> <summary>👀 {name} </summary>\n\n"
     release_version = (

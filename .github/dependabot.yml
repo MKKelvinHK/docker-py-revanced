@@ -10,6 +10,7 @@ updates:
       interval: "daily"
     assignees:
       - "nikhilbadyal"
+      - "mkkelvinhk"
 
   # Enable version updates for Docker
 
@@ -21,6 +22,7 @@ updates:
       interval: "daily"
     assignees:
       - "nikhilbadyal"
+      - "mkkelvinhk"
 
   # Enable version updates for Python/Pip - Production
   - package-ecosystem: "pip"
@@ -32,3 +34,4 @@ updates:
       interval: "daily"
     assignees:
         - "nikhilbadyal"
+        - "mkkelvinhk"
