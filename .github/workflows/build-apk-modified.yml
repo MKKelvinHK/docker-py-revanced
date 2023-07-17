@@ -1,4 +1,4 @@
-name: Build & Release (Original)
+name: Build & Release (Modified)
 env:
   DOCKER_BUILDKIT: 1
   COMPOSE_DOCKER_CLI_BUILD: 1
