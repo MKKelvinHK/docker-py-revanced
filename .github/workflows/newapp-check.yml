@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      CREATE_ISSUE:
+        description: "Create GitHub issue"
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   status_check:
@@ -25,17 +31,30 @@ jobs:
 
       - name: Execute Status Check
         run: |
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
           output=$(python -m scripts.status_check)
-          echo "changelog=$output" >>$GITHUB_OUTPUT
+          echo "changelog<<$EOF" >> $GITHUB_OUTPUT
+          echo "$output" >> $GITHUB_OUTPUT
+          echo "$EOF" >> $GITHUB_OUTPUT
         id: status
+
       - name: Update Check
-        run: echo "${{ steps.status.outputs.changelog }}"
+        run: |
+          run: echo "${{ steps.status.outputs.changelog }}"
+
+      - name: Upload status file
+        uses: actions/upload-artifact@main
+        with:
+          name: issue_body.md
+          path: status.md
+          if-no-files-found: error
 
       - name: Create Issue Action
+        if: inputs.CREATE_ISSUE
         uses: nashmaniac/create-issue-action@v1.2
         with:
           title: Revanced apps Status
           token: ${{secrets.GITHUB_TOKEN}}
           assignees: ${{ github.repository_owner }}
           labels: 💁‍new-app
-          body:  ${{ steps.status.outputs.changelog }}
+          body: ${{ steps.status.outputs.changelog }}
