@@ -8,10 +8,8 @@ updates:
     labels:
       - dependencies🫂
     assignees:
-      - "nikhilbadyal"
       - "mkkelvinhk"
     reviewers:
-      - "nikhilbadyal"
       - "mkkelvinhk"
 
   - package-ecosystem: "docker"
@@ -21,10 +19,8 @@ updates:
     labels:
       - dependencies🫂
     assignees:
-      - "nikhilbadyal"
       - "mkkelvinhk"
     reviewers:
-      - "nikhilbadyal"
       - "mkkelvinhk"
 
   - package-ecosystem: "pip"
@@ -34,8 +30,6 @@ updates:
     labels:
       - dependencies🫂
     assignees:
-      - "nikhilbadyal"
       - "mkkelvinhk"
     reviewers:
-      - "nikhilbadyal"
       - "mkkelvinhk"
