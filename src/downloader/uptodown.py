@@ -6,7 +6,7 @@ from loguru import logger
 from selectolax.lexbor import LexborHTMLParser
 
 from src.downloader.download import Downloader
-from src.utils import AppNotFound
+from src.exceptions import AppNotFound
 
 
 class UptoDown(Downloader):
@@ -27,7 +27,7 @@ class UptoDown(Downloader):
         :return: Version of downloaded apk
         """
         logger.debug("downloading specified version of app from uptodown.")
-        url = f"https://{app}.en.uptodown.com/android/versions"
+        url = f"https://{app}.jp.uptodown.com/android/versions"
         html = self.config.session.get(url).text
         soup = BeautifulSoup(html, "html.parser")
         versions_list = soup.find("section", {"id": "versions"})
