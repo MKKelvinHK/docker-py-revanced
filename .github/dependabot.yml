@@ -8,10 +8,9 @@ updates:
     labels:
       - dependencies🫂
     assignees:
-      - "mkkelvinhk"
+      - "nikhilbadyal"
     reviewers:
-      - "mkkelvinhk"
-
+      - "nikhilbadyal"
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
@@ -19,10 +18,9 @@ updates:
     labels:
       - dependencies🫂
     assignees:
-      - "mkkelvinhk"
+      - "nikhilbadyal"
     reviewers:
-      - "mkkelvinhk"
-
+      - "nikhilbadyal"
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
@@ -30,6 +28,6 @@ updates:
     labels:
       - dependencies🫂
     assignees:
-      - "mkkelvinhk"
+      - "nikhilbadyal"
     reviewers:
-      - "mkkelvinhk"
+        - "nikhilbadyal"
