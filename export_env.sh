@@ -30,7 +30,7 @@ export YOUTUBE_MUSIC_PATCHES_JSON_DL=https://github.com/inotia00/revanced-patche
 export YOUTUBE_MUSIC_INTEGRATIONS_DL=https://github.com/inotia00/revanced-integrations
 export YOUTUBE_MUSIC_EXCLUDE_PATCH=custom-branding-icon-revancify-red,custom-branding-icon-revancify-blue
 
-export TWITTER_VERSION=9.97.0-release.0
+export TWITTER_VERSION=9.98.0-release.0
 export TWITTER_EXCLUDE_PATCH=hide-views-stats
 
 export REDDIT_VERSION=latest
