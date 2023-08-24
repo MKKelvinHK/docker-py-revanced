@@ -9,6 +9,13 @@
     ]
   },
   {
+    "patchName" : "Spoof player parameters",
+    "options" : [ {
+      "key" : "SpoofPlayerParameterShorts",
+      "value" : true
+    } ]
+  },
+  {
     "patchName" : "Theme",
     "options" : [ 
       {
@@ -57,7 +64,7 @@
     "options": [
       {
         "key": "DoubleTapLengthArrays",
-        "value": "1, 3, 5, 10, 15, 20, 30, 60, 120, 180"
+        "value": "3, 5, 10, 15, 20, 30, 60, 120, 180"
       }
     ]
   },
