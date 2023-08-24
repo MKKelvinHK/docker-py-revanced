@@ -1,4 +1,5 @@
 name: Build & Release (Modified)
+runs-on: self-hosted
 env:
   DOCKER_BUILDKIT: 1
   COMPOSE_DOCKER_CLI_BUILD: 1
