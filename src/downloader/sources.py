@@ -1,6 +1,6 @@
 APK_MIRROR_BASE_URL = "https://www.apkmirror.com"
 APK_MIRROR_BASE_APK_URL = f"{APK_MIRROR_BASE_URL}/apk"
-UPTODOWN_BASE_URL = "https://{}.en.uptodown.com/android"
+UPTODOWN_BASE_URL = "https://{}.jp.uptodown.com/android"
 APK_PURE_BASE_URL = "https://d.apkpure.com/b/APK"
 APK_PURE_URL = APK_PURE_BASE_URL + "/{}?version=latest"
 APKS_SOS_BASE_URL = "https://apksos.com/download-app"
