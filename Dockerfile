@@ -8,13 +8,13 @@ ARG APP_HOME=/app
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
 WORKDIR ${APP_HOME}
-ENV LANG='jp_JP.UTF-8' LANGUAGE='jp_JP:en' LC_ALL='jp_JP.UTF-8'
+ENV LANG='ja_JP.UTF-8' LANGUAGE='ja_JP:jp' LC_ALL='ja_JP.UTF-8'
 ARG ZULU_REPO_VER=1.0.0-3
 
 RUN apt-get -qq update && \
     apt-get -qq -y --no-install-recommends install gnupg software-properties-common locales curl tzdata && \
-    echo "jp_JP.UTF-8 UTF-8" >> /etc/locale.gen && \
-    locale-gen jp_JP.UTF-8 && \
+    echo "ja_JP.UTF-8 UTF-8" >> /etc/locale.gen && \
+    locale-gen ja_JP.UTF-8 && \
     apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0xB1998361219BD9C9 && \
     curl -sLO https://cdn.azul.com/zulu/bin/zulu-repo_${ZULU_REPO_VER}_all.deb && dpkg -i zulu-repo_${ZULU_REPO_VER}_all.deb && \
     apt-get -qq update && \
