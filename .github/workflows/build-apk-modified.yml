@@ -43,6 +43,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build-apk:
+    runs-on: self-hosted
     uses: ./.github/workflows/build-artifact.yml
     with:
       COMMIT_CHANGELOG: ${{ inputs.COMMIT_CHANGELOG }}
@@ -53,7 +54,7 @@ jobs:
 
   upload-to-github:
     name: GitHub Upload
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 15
     needs: build-apk
     if: inputs.GITHUB_UPLOAD
@@ -82,6 +83,7 @@ jobs:
           sleep 10
 
   virustotal-scan:
+    runs-on: self-hosted
     needs: [ upload-to-github ]
     uses: nikhilbadyal/ghactions/.github/workflows/virustotal-scan.yml@main
     with:
@@ -94,6 +96,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   upload-to-telegram:
+    runs-on: self-hosted
     needs: [ upload-to-github ]
     uses: nikhilbadyal/ghactions/.github/workflows/telegram-uploader.yml@main
     if: inputs.TELEGRAM_NO_ROOT_UPLOAD
@@ -108,6 +111,7 @@ jobs:
       SEND_STICKER: ${{ secrets.SEND_STICKER }}
 
   upload-to-telegram-root:
+    runs-on: self-hosted
     needs: [ upload-to-telegram ]
     uses: nikhilbadyal/ghactions/.github/workflows/telegram-uploader.yml@main
     if: inputs.TELEGRAM_ROOT_UPLOAD
