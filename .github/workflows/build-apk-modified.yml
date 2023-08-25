@@ -3,7 +3,6 @@ env:
   DOCKER_BUILDKIT: 1
   COMPOSE_DOCKER_CLI_BUILD: 1
   HAVE_TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID != '' }}
-  runs-on: self-hosted
 on:
   workflow_dispatch:
     inputs:
@@ -43,7 +42,6 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build-apk:
-    runs-on: self-hosted
     uses: ./.github/workflows/build-artifact.yml
     with:
       COMMIT_CHANGELOG: ${{ inputs.COMMIT_CHANGELOG }}
@@ -83,7 +81,6 @@ jobs:
           sleep 10
 
   virustotal-scan:
-    runs-on: self-hosted
     needs: [ upload-to-github ]
     uses: nikhilbadyal/ghactions/.github/workflows/virustotal-scan.yml@main
     with:
@@ -96,7 +93,6 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   upload-to-telegram:
-    runs-on: self-hosted
     needs: [ upload-to-github ]
     uses: nikhilbadyal/ghactions/.github/workflows/telegram-uploader.yml@main
     if: inputs.TELEGRAM_NO_ROOT_UPLOAD
@@ -111,7 +107,6 @@ jobs:
       SEND_STICKER: ${{ secrets.SEND_STICKER }}
 
   upload-to-telegram-root:
-    runs-on: self-hosted
     needs: [ upload-to-telegram ]
     uses: nikhilbadyal/ghactions/.github/workflows/telegram-uploader.yml@main
     if: inputs.TELEGRAM_ROOT_UPLOAD
