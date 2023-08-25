@@ -52,7 +52,7 @@ jobs:
 
   upload-to-github:
     name: GitHub Upload
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 15
     needs: build-apk
     if: inputs.GITHUB_UPLOAD
@@ -67,6 +67,14 @@ jobs:
         run: |
           echo "date=$(TZ='Asia/Tokyo' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_OUTPUT
           curl https://github.com/nikhilbadyal/docker-py-revanced/blob/changelogs/changelog.md > changelog.md
+
+      - name: Upload Build Artifact
+        uses: ncipollo/release-action@main
+        with:
+          artifacts: "*-output.apk"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: Build-${{ steps.get-date.outputs.date }}
+          artifactErrorsFailBuild: true
 
       - name: Upload Build Artifact
         uses: ncipollo/release-action@main
