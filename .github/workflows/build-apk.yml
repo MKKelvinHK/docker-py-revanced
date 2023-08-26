@@ -133,7 +133,6 @@ jobs:
       SEND_MESSAGE: ${{ secrets.SEND_MESSAGE }}
       MESSAGE: ${{ secrets.MESSAGE_ROOT }}
 
-
   cleanup:
     name: GitHub Cleanup
     if: inputs.CLEANUP
