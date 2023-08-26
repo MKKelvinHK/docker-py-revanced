@@ -17,6 +17,7 @@ class Patches(object):
 
     revanced_package_names: ClassVar[Dict[str, str]] = {
         "com.reddit.frontpage": "reddit",
+        "com.duolingo": "duolingo",
         "com.ss.android.ugc.trill": "tiktok",
         "com.twitter.android": "twitter",
         "de.dwd.warnapp": "warnwetter",
@@ -38,6 +39,8 @@ class Patches(object):
         "eu.faircode.netguard": "netguard",
         "com.instagram.android": "instagram",
         "com.nis.app": "inshorts",
+        "pl.solidexplorer2": "solidexplorer",
+        "com.adobe.lrmobile": "lightroom",
         "com.facebook.orca": "messenger",
         "com.google.android.apps.recorder": "grecorder",
         "tv.trakt.trakt": "trakt",
@@ -56,6 +59,7 @@ class Patches(object):
         "com.google.android.apps.youtube.music": "youtube_music",
         "com.mgoogle.android.gms": "microg",
         "jp.pxv.android": "pixiv",
+        "com.strava": "strava",
     }
 
     @staticmethod
