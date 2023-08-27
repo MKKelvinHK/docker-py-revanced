@@ -11,7 +11,7 @@ permissions:
 jobs:
   auto-update:
     uses: nikhilbadyal/ghactions/.github/workflows/python-precommit-updater.yml@main
-    if: github.repository == 'mkkelvinhk/docker-py-revanced'
+    if: github.repository == 'nikhilbadyal/docker-py-revanced'
     secrets:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     with:
