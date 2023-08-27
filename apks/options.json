@@ -16,50 +16,6 @@
     } ]
   },
   {
-    "patchName" : "Theme",
-    "options" : [ 
-      {
-        "key" : "darkThemeBackgroundColor",
-        "value" : "@android:color/black"
-      } 
-    ]
-  }, 
-  {
-      "patchName" : "Custom package name",
-      "options" : [ 
-      {
-        "key" : "YouTubePackageName",
-        "value" : "app.rvx.android.youtube"
-      }, 
-      {
-        "key" : "MusicPackageName",
-        "value" : "app.rvx.android.apps.youtube.music"
-      } 
-    ]
-  }, 
-  {
-      "patchName" : "Custom branding YouTube name",
-      "options" : [ 
-      {
-        "key" : "YouTubeAppName",
-        "value" : "YouTube ReVanced Extended"
-      } 
-    ]
-  }, 
-  {
-      "patchName" : "Custom branding Music name",
-      "options" : [ 
-      {
-        "key" : "MusicLongName",
-        "value" : "YouTube Music ReVanced Extended"
-      },
-      {
-        "key" : "MusicShortName",
-        "value" : "YTM RVX"
-      }  
-    ]
-  },
-  {
     "patchName": "Custom double tap length",
     "options": [
       {
