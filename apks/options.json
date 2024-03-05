@@ -25,6 +25,15 @@
     ]
   },
   {
+    "patchName": "Premium heading",
+    "options": [
+      {
+        "key": "UsePremiumHeading",
+        "value": false
+      }
+    ]
+  },
+  {
     "patchName" : "Custom branding Microg name",
     "options" : [ 
       {
@@ -70,6 +79,15 @@
       {
         "key": "RedditSettings",
         "value": true
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name Reddit",
+    "options": [
+      {
+        "key": "AppName",
+        "value": "Reddit"
       }
     ]
   }
