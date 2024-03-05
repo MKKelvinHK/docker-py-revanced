@@ -57,7 +57,7 @@ jobs:
           fi
       - name: Trigger build workflow
         if: ${{ steps.compare-version.outputs.trigger_build == 'true' }}
-        uses: benc-uk/workflow-dispatch@v1.1
+        uses: benc-uk/workflow-dispatch@v1.2
         with:
           workflow: "Build & Release"
           token: ${{ secrets.GITHUB_TOKEN }}
