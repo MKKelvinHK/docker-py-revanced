@@ -56,7 +56,7 @@ apk_sources = {
     "musically": f"{APK_MIRROR_BASE_APK_URL}/tiktok-pte-ltd/tik-tok-including-musical-ly/",
     "trakt": f"{APK_MIRROR_BASE_APK_URL}/trakt/trakt/",
     "twitch": UPTODOWN_BASE_URL.format("twitch"),
-    "twitter": APK_SOS_URL.format("twitter"),
+    "twitter": APK_MONK_APK_URL,
     "vsco": f"{APK_MIRROR_BASE_APK_URL}/vsco/vsco-cam/",
     "warnwetter": f"{APK_MIRROR_BASE_APK_URL}/deutscher-wetterdienst/warnwetter/",
     "windy": APK_PURE_URL.format("windy"),
