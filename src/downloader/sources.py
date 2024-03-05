@@ -5,7 +5,7 @@ APK_MIRROR_BASE_APK_URL = f"{APK_MIRROR_BASE_URL}/apk"
 APK_MIRROR_PACKAGE_URL = f"{APK_MIRROR_BASE_URL}/?s=" + "{}"
 APK_MIRROR_APK_CHECK = f"{APK_MIRROR_BASE_URL}/wp-json/apkm/v1/app_exists/"
 UPTODOWN_BASE_URL = "https://{}.jp.uptodown.com/android"
-APK_PURE_BASE_URL = "https://apkpure.com"
+APK_PURE_BASE_URL = "https://apkpure.com/jp/"
 APK_PURE_BASE_APK_URL = "https://d.apkpure.com/b/APK"
 APK_PURE_URL = APK_PURE_BASE_APK_URL + "/{}?version=latest"
 APK_PURE_ICON_URL = APK_PURE_BASE_URL + "/search?q={}"
@@ -42,8 +42,8 @@ apk_sources = {
     "netguard": f"{APK_MIRROR_BASE_APK_URL}/marcel-bokhorst/netguard-no-root-firewall/",
     "nova_launcher": f"{APK_MIRROR_BASE_APK_URL}/teslacoil-software/nova-launcher/",
     "nyx-music-player": f"{APK_MIRROR_BASE_APK_URL}/awedea/nyx-music-player/",
-    "pixiv": UPTODOWN_BASE_URL.format("pixiv"),
-    "reddit": f"{APK_PURE_BASE_APK_URL}/com.reddit.frontpage?version=latest",
+    "pixiv": APK_PURE_URL,
+    "reddit": APK_PURE_URL,
     "relay": f"{APK_MIRROR_BASE_APK_URL}/dbrady/relay-for-reddit-2/",
     "rif": f"{APK_MIRROR_BASE_APK_URL}/talklittle/reddit-is-fun/",
     "slide": f"{APK_MIRROR_BASE_APK_URL}/haptic-apps/slide-for-reddit/",
@@ -56,10 +56,10 @@ apk_sources = {
     "musically": f"{APK_MIRROR_BASE_APK_URL}/tiktok-pte-ltd/tik-tok-including-musical-ly/",
     "trakt": f"{APK_MIRROR_BASE_APK_URL}/trakt/trakt/",
     "twitch": UPTODOWN_BASE_URL.format("twitch"),
-    "twitter": UPTODOWN_BASE_URL.format("twitter"),
+    "twitter": APK_SOS_URL,
     "vsco": f"{APK_MIRROR_BASE_APK_URL}/vsco/vsco-cam/",
     "warnwetter": f"{APK_MIRROR_BASE_APK_URL}/deutscher-wetterdienst/warnwetter/",
-    "windy": f"{APK_PURE_BASE_APK_URL}/com.reddit.frontpage?version=latest",
+    "windy": APK_PURE_URL,
     "youtube": f"{APK_MIRROR_BASE_APK_URL}/google-inc/youtube/",
     "youtube_music": f"{APK_MIRROR_BASE_APK_URL}/google-inc/youtube-music/",
     "yuka": f"{APK_MIRROR_BASE_APK_URL}/yuka-apps/yuka-food-cosmetic-scan/",
