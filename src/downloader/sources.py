@@ -4,7 +4,7 @@ APK_MIRROR_BASE_URL = "https://www.apkmirror.com"
 APK_MIRROR_BASE_APK_URL = f"{APK_MIRROR_BASE_URL}/apk"
 APK_MIRROR_PACKAGE_URL = f"{APK_MIRROR_BASE_URL}/?s=" + "{}"
 APK_MIRROR_APK_CHECK = f"{APK_MIRROR_BASE_URL}/wp-json/apkm/v1/app_exists/"
-UPTODOWN_BASE_URL = "https://{}.en.uptodown.com/android"
+UPTODOWN_BASE_URL = "https://{}.jp.uptodown.com/android"
 APK_PURE_BASE_URL = "https://apkpure.com"
 APK_PURE_BASE_APK_URL = "https://d.apkpure.com/b/APK"
 APK_PURE_URL = APK_PURE_BASE_APK_URL + "/{}?version=latest"
@@ -78,4 +78,6 @@ apk_sources = {
     "spotify-lite": APK_MONK_APK_URL,
     "digitales": APK_MONK_APK_URL,
     "scbeasy": APK_MONK_APK_URL,
+    "sleep": f"{APK_MIRROR_BASE_APK_URL}/urbandroid-team/sleep-as-android-sleep-cycle-tracker-smart-alarm/",
+    "countryroad": f"{APK_MIRROR_BASE_APK_URL}/apk/crunchyroll-llc-2/crunchyroll/"
 }
