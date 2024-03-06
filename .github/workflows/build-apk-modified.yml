@@ -53,6 +53,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build-apk:
+    runs-on: [self-hosted, linux, x64]
     uses: ./.github/workflows/build-artifact.yml
     with:
       COMMIT_CHANGELOG: ${{ inputs.COMMIT_CHANGELOG }}
@@ -60,7 +61,6 @@ jobs:
     secrets:
       ENVS: ${{ secrets.ENVS }}
       REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-    runs-on: [self-hosted, Linux, X64]
 
   upload-to-github:
     name: GitHub Upload
