@@ -60,7 +60,7 @@ jobs:
     secrets:
       ENVS: ${{ secrets.ENVS }}
       REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-    runs-on: Etorofu - Main SelfHosted Server
+    runs-on: Etorofu
 
   upload-to-github:
     name: GitHub Upload
