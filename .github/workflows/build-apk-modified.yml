@@ -54,7 +54,6 @@ concurrency:
 jobs:
   build-apk:
     uses: ./.github/workflows/build-artifact.yml
-    runs-on: [self-hosted, linux, x64]
     with:
       COMMIT_CHANGELOG: ${{ inputs.COMMIT_CHANGELOG }}
       DEBUG_ENABLED: ${{ inputs.DEBUG_ENABLED }}
