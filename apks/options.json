@@ -124,7 +124,7 @@
     "options": [
       {
         "key": "PackageNameReddit",
-        "value": "com.reddit.frontpage.rvx"
+        "value": "com.reddit.frontpage"
       }
     ]
   },
@@ -150,11 +150,11 @@
     "patchName": "Spoof SIM country",
     "options": [
       {
-        "key": "NetworkISOCountryCode",
+        "key": "networkCountryIso",
         "value": "JP"
       },
       {
-        "key": "SimISOCountryCode",
+        "key": "simCountryIso",
         "value": "JP"
       }
     ]
