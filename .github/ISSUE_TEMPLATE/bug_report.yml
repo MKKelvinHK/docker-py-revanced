@@ -3,7 +3,7 @@ description: Encountered some issue while building?
 labels:
   - "bug🐞"
 assignees:
-  - mkkelvinhk
+  - nikhilbadyal
 
 body:
   - type: checkboxes
