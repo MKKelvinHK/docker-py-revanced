@@ -17,7 +17,6 @@ on:
         description: "Release as a pre-release"
         required: false
         type: boolean
-#        default: false
         default: true
       TELEGRAM_NO_ROOT_UPLOAD:
         description: "Upload Non Rooted APKs to Telegram"
@@ -38,13 +37,7 @@ on:
         description: "Scan apks with VirusTotal"
         required: false
         type: boolean
-#        default: false
         default: true
-#      CLEANUP:
-#        description: "Clear GitHub (Useful if Telegram upload is enabled)"
-#        required: false
-#        type: boolean
-#        default: false
       COMMIT_CHANGELOG:
         description: "Update Changelog"
         type: boolean
@@ -86,12 +79,6 @@ jobs:
         run: |
           echo "date=$(TZ='Asia/Tokyo' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_OUTPUT
 #          curl https://github.com/mkkelvinhk/docker-py-revanced/blob/changelogs/changelog.md > changelog.md
-
-#      - name: Delete Older Releases
-#        uses: nikhilbadyal/ghaction-rm-releases@v0.0.5
-#        with:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#          RELEASE_PATTERN: "Build*"
 
       - name: Upload Build Artifact
         uses: ncipollo/release-action@main
@@ -142,11 +129,3 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       DOWNLOAD_GITHUB_REPOSITORY: ${{ secrets.ROOT_DOWNLOAD_GITHUB_REPOSITORY }}
       MESSAGE: ${{ secrets.MESSAGE_ROOT }}
-
-#  cleanup:
-#    name: GitHub Cleanup
-#    if: inputs.CLEANUP
-#    needs: [upload-to-telegram]
-#    uses: ./.github/workflows/github-cleanup.yml
-#    secrets:
-#      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
