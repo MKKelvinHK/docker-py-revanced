@@ -38,7 +38,7 @@ class DownloaderFactory(object):
             return ApkPure(config)
         if apk_source.startswith(APKS_SOS_BASE_URL):
             return ApkSos(config)
-        if apk_source.endswith("en.uptodown.com/android"):
+        if apk_source.endswith("jp.uptodown.com/android"):
             return UptoDown(config)
         if apk_source.startswith(APK_MIRROR_BASE_URL):
             return ApkMirror(config)

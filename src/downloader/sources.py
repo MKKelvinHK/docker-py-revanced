@@ -4,8 +4,8 @@ APK_MIRROR_BASE_URL = "https://www.apkmirror.com"
 APK_MIRROR_BASE_APK_URL = f"{APK_MIRROR_BASE_URL}/apk"
 APK_MIRROR_PACKAGE_URL = f"{APK_MIRROR_BASE_URL}/?s=" + "{}"
 APK_MIRROR_APK_CHECK = f"{APK_MIRROR_BASE_URL}/wp-json/apkm/v1/app_exists/"
-UPTODOWN_BASE_URL = "https://{}.en.uptodown.com/android"
-APK_PURE_BASE_URL = "https://apkpure.net"
+UPTODOWN_BASE_URL = "https://{}.jp.uptodown.com/android"
+APK_PURE_BASE_URL = "https://apkpure.net/jp/"
 APK_PURE_BASE_APK_URL = "https://d.apkpure.net/b/APK"
 APK_PURE_URL = APK_PURE_BASE_APK_URL + "/{}?version=latest"
 APK_PURE_ICON_URL = APK_PURE_BASE_URL + "/search?q={}"
@@ -29,7 +29,7 @@ apk_sources = {
     "bacon": f"{APK_MIRROR_BASE_APK_URL}/onelouder-apps/baconreader-for-reddit/",
     "boost": f"{APK_MIRROR_BASE_APK_URL}/ruben-mayayo/boost-for-reddit/",
     "candyvpn": f"{APK_MIRROR_BASE_APK_URL}/liondev-io/candylink-vpn/",
-    "duolingo": f"{APK_MIRROR_BASE_APK_URL}/duolingo/duolingo-duolingo/",
+    "duolingo": APK_PURE_URL,
     "grecorder": f"{APK_MIRROR_BASE_APK_URL}/google-inc/google-recorder/",
     "icon_pack_studio": f"{APK_MIRROR_BASE_APK_URL}/smart-launcher-team/icon-pack-studio/",
     "infinity": f"{APK_MIRROR_BASE_APK_URL}/docile-alligator/infinity-for-reddit/",
@@ -42,12 +42,12 @@ apk_sources = {
     "netguard": f"{APK_MIRROR_BASE_APK_URL}/marcel-bokhorst/netguard-no-root-firewall/",
     "nova_launcher": f"{APK_MIRROR_BASE_APK_URL}/teslacoil-software/nova-launcher/",
     "nyx-music-player": f"{APK_MIRROR_BASE_APK_URL}/awedea/nyx-music-player/",
-    "pixiv": f"{APK_MIRROR_BASE_APK_URL}/pixiv-inc/pixiv/",
-    "reddit": f"{APK_MIRROR_BASE_APK_URL}/redditinc/reddit/",
+    "pixiv": UPTODOWN_BASE_URL.format("pixiv"),
+    "reddit": UPTODOWN_BASE_URL.format("reddit-official-app"),
     "relay": f"{APK_MIRROR_BASE_APK_URL}/dbrady/relay-for-reddit-2/",
     "rif": f"{APK_MIRROR_BASE_APK_URL}/talklittle/reddit-is-fun/",
     "slide": f"{APK_MIRROR_BASE_APK_URL}/haptic-apps/slide-for-reddit/",
-    "solidexplorer": f"{APK_MIRROR_BASE_APK_URL}/neatbytes/solid-explorer-beta/",
+    "solidexplorer": UPTODOWN_BASE_URL.format("solid-explorer-file-manager"),
     "sonyheadphone": f"{APK_MIRROR_BASE_APK_URL}/sony-corporation/sony-headphones-connect/",
     "sync": f"{APK_MIRROR_BASE_APK_URL}/red-apps-ltd/sync-for-reddit/",
     "tasker": f"{APK_MIRROR_BASE_APK_URL}/joaomgcd/tasker-crafty-apps-eu/",
@@ -55,7 +55,7 @@ apk_sources = {
     "tiktok": f"{APK_MIRROR_BASE_APK_URL}/tiktok-pte-ltd/tik-tok-including-musical-ly/",
     "musically": f"{APK_MIRROR_BASE_APK_URL}/tiktok-pte-ltd/tik-tok-including-musical-ly/",
     "trakt": f"{APK_MIRROR_BASE_APK_URL}/trakt/trakt/",
-    "twitch": f"{APK_MIRROR_BASE_APK_URL}/twitch-interactive-inc/twitch/",
+    "twitch": UPTODOWN_BASE_URL.format("twitch"),
     "twitter": f"{APK_MIRROR_BASE_APK_URL}/x-corp/twitter/",
     "vsco": f"{APK_MIRROR_BASE_APK_URL}/vsco/vsco-cam/",
     "warnwetter": f"{APK_MIRROR_BASE_APK_URL}/deutscher-wetterdienst/warnwetter/",
@@ -80,4 +80,6 @@ apk_sources = {
     "spotify-lite": APK_MONK_APK_URL,
     "digitales": APK_MONK_APK_URL,
     "scbeasy": APK_MONK_APK_URL,
+    "sleep": APK_PURE_URL,
+    "countryroad": APK_PURE_URL,
 }
