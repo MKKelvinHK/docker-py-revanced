@@ -7,10 +7,10 @@ from environs import Env
 
 from src.utils import default_build
 
-default_cli = "https://github.com/revanced/revanced-cli/releases/latest"
-default_patches = "https://github.com/revanced/revanced-patches/releases/latest"
+default_cli = "https://github.com/revanced/revanced-cli/releases/latest-prerelease"
+default_patches = "https://github.com/revanced/revanced-patches/releases/latest-prerelease"
 default_patches_json = default_patches
-default_integrations = "https://github.com/revanced/revanced-integrations/releases/latest"
+default_integrations = "https://github.com/revanced/revanced-integrations/releases/latest-prerelease"
 
 
 class RevancedConfig(object):
