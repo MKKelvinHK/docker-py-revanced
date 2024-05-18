@@ -7,9 +7,9 @@ on:
     inputs:
       CREATE_ISSUE:
         description: "Create GitHub issue"
-        required: false
+        required: true
         type: boolean
-        default: false
+        default: true
 
 jobs:
   status_check:
