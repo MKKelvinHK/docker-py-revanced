@@ -4,10 +4,10 @@ APK_MIRROR_BASE_URL = "https://www.apkmirror.com"
 APK_MIRROR_BASE_APK_URL = f"{APK_MIRROR_BASE_URL}/apk"
 APK_MIRROR_PACKAGE_URL = f"{APK_MIRROR_BASE_URL}/?s=" + "{}"
 APK_MIRROR_APK_CHECK = f"{APK_MIRROR_BASE_URL}/wp-json/apkm/v1/app_exists/"
-UPTODOWN_BASE_URL = "https://{}.jp.uptodown.com/android"
+UPTODOWN_SUFFIX = "jp.uptodown.com/android"
+UPTODOWN_BASE_URL = "https://{}." + UPTODOWN_SUFFIX
 APK_PURE_BASE_URL = "https://apkpure.net/jp/"
-APK_PURE_BASE_APK_URL = "https://d.apkpure.net/b/APK"
-APK_PURE_URL = APK_PURE_BASE_APK_URL + "/{}?version=latest"
+APK_PURE_URL = APK_PURE_BASE_URL + "/-/{}"
 APK_PURE_ICON_URL = APK_PURE_BASE_URL + "/search?q={}"
 APKS_SOS_BASE_URL = "https://apksos.com/download-app"
 APK_SOS_URL = APKS_SOS_BASE_URL + "/{}"
@@ -68,12 +68,15 @@ apk_sources = {
     "tumblr": f"{APK_MIRROR_BASE_APK_URL}/tumblr-inc/tumblr/",
     "fitnesspal": f"{APK_MIRROR_BASE_APK_URL}/myfitnesspal-inc/calorie-counter-myfitnesspal/",
     "facebook": f"{APK_MIRROR_BASE_APK_URL}/facebook-2/facebook/",
+    "lemmy-sync": f"{APK_MIRROR_BASE_APK_URL}/sync-apps-ltd/sync-for-lemmy/",
+    "xiaomi-wearable": f"{APK_MIRROR_BASE_APK_URL}/beijing-xiaomi-mobile-software-co-ltd/mi-wear-小米穿戴/",
     "my-expenses": UPTODOWN_BASE_URL.format("my-expenses"),
     "spotify": UPTODOWN_BASE_URL.format("spotify"),
+    "joey": UPTODOWN_BASE_URL.format("joey-for-reddit"),
+    "scbeasy": UPTODOWN_BASE_URL.format("scb-easy"),
+    "expensemanager": UPTODOWN_BASE_URL.format("bishinews-expense-manager"),
     "androidtwelvewidgets": APK_PURE_URL,
     "reddit-news": APK_PURE_URL,
-    "expensemanager": APK_SOS_URL,
-    "finanz-online": APK_SOS_URL,
     "hex-editor": APK_PURE_URL,
     "photomath": APK_MONK_APK_URL,
     "joey": APK_MONK_APK_URL,
