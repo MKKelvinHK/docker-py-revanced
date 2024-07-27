@@ -1,1 +1,68 @@
-{}
+{
+    "ReVanced/GmsCore": {
+        "ResourceName": "[ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases/tag/v0.3.1.4.240913)",
+        "Version": "v0.3.1.4.240913",
+        "Changelog": "# Download\r\n\r\n| Default | Huawei |\r\n| -------- | -------- |\r\n| [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-signed.apk) |  [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-hw-signed.apk) |\r\n",
+        "PublishedOn": "2024-04-05T02:37:11Z"
+    },
+    "revanced/revanced-integrations": {
+        "ResourceName": "[revanced/revanced-integrations](https://github.com/ReVanced/revanced-integrations/releases/tag/v1.12.0-dev.3)",
+        "Version": "v1.12.0-dev.3",
+        "Changelog": "# [1.12.0-dev.3](https://github.com/ReVanced/revanced-integrations/compare/v1.12.0-dev.2...v1.12.0-dev.3) (2024-07-26)\n\n\n### Bug Fixes\n\n* **YouTube - SponsorBlock:** Correctly show minute timestamp when creating a new segment ([e71955d](https://github.com/ReVanced/revanced-integrations/commit/e71955d5bbe58c1c634e82262d0e67dc65eca078))\n\n\n\n",
+        "PublishedOn": "2024-07-26T14:40:27Z"
+    },
+    "ReVanced/revanced-manager": {
+        "ResourceName": "[ReVanced/revanced-manager](https://github.com/ReVanced/revanced-manager/releases/tag/v1.21.0-dev.6)",
+        "Version": "v1.21.0-dev.6",
+        "Changelog": "# [1.21.0-dev.6](https://github.com/ReVanced/revanced-manager/compare/v1.21.0-dev.5...v1.21.0-dev.6) (2024-06-30)\n\n\n### Bug Fixes\n\n* Add missing import to patch options field ([d60f9aa](https://github.com/ReVanced/revanced-manager/commit/d60f9aa1d80a4a97b100843d16e5a37b8f312a72))\n* Follow system theme immediately ([#1942](https://github.com/ReVanced/revanced-manager/issues/1942)) ([694f2a9](https://github.com/ReVanced/revanced-manager/commit/694f2a9faed0ca549a40e11abf20242121b773e6))\n* Handle selecting files and folders for patch options correctly ([#1941](https://github.com/ReVanced/revanced-manager/issues/1941)) ([b26760b](https://github.com/ReVanced/revanced-manager/commit/b26760b2163081e0e49b0bcd4799abefb4118920))\n* Increase dashboard RefreshIndicator edge offset ([#1859](https://github.com/ReVanced/revanced-manager/issues/1859)) ([232b702](https://github.com/ReVanced/revanced-manager/commit/232b70278971a1a6a67867577359a6de99455689))\n* Select previously applied patches when loading patch selection ([#1865](https://github.com/ReVanced/revanced-manager/issues/1865)) ([7ef8f04](https://github.com/ReVanced/revanced-manager/commit/7ef8f0454b61429a1e4e9d306535f23b2fca5ba7))\n* Unsupported patch toast says \"patchItem.unsupportedPatchVersion\" ([#2011](https://github.com/ReVanced/revanced-manager/issues/2011)) ([3209c0e](https://github.com/ReVanced/revanced-manager/commit/3209c0e430f82d55704a609eb1057d052441c5a3))\n\n\n### Features\n\n* Save last patched app ([#1414](https://github.com/ReVanced/revanced-manager/issues/1414)) ([7720408](https://github.com/ReVanced/revanced-manager/commit/77204087bba250cd6dc0c10f406016f9d3f976b3))\n\n\n\n",
+        "PublishedOn": "2024-06-30T20:45:43Z"
+    },
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.3.8)",
+        "Version": "V1.3.8",
+        "Changelog": "## What's Changed\r\n* Support dex versions upto 40 #100 \r\n* Fix: Correct order of resource config flags: https://github.com/REAndroid/ARSCLib/commit/3c31e3e37f19227b7957621a6c82dc7385da6c64\r\n* Fix: Keep original namespace prefix for non android schemas: https://github.com/REAndroid/ARSCLib/commit/0a401700ce4568f13f7c2a39ec91ac8656409a91\r\n* Support multiple document elements on xml: https://github.com/REAndroid/ARSCLib/commit/db925e86d4cbf51497f35f41a6aae33289a4e9fc\r\n* Smali decompiler flag to exclude debug information: #102 by @Kirlif and: https://github.com/REAndroid/smali-lib/commit/39511f916fa845dae344a2f59a66bccdaba8de93\r\n* Dump and build dex markers: https://github.com/REAndroid/smali-lib/commit/8d2a0c479190f657cb59f64a74835ab430fb6326",
+        "PublishedOn": "2024-05-01T21:44:39Z"
+    },
+    "revanced/revanced-cli": {
+        "ResourceName": "[revanced/revanced-cli](https://github.com/ReVanced/revanced-cli/releases/tag/v4.6.0)",
+        "Version": "v4.6.0",
+        "Changelog": "# [4.6.0](https://github.com/ReVanced/revanced-cli/compare/v4.5.0...v4.6.0) (2024-04-01)\n\n\n### Bug Fixes\n\n* Copy APK to output path when it is not being signed ([366f400](https://github.com/ReVanced/revanced-cli/commit/366f400c5a46491f3f262c7ff4b0df1ae3721f74))\n* Use correct option description ([45a2ffa](https://github.com/ReVanced/revanced-cli/commit/45a2ffa2dd95ee8ac3c4d466463c9a5b869b8da1))\n\n\n### Features\n\n* Use more consistent option name ([223629c](https://github.com/ReVanced/revanced-cli/commit/223629c663dcd94d237110e09e4e152aa03867f9))\n\n\n\n",
+        "PublishedOn": "2024-04-01T14:57:09Z"
+    },
+    "crimera/revanced-integrations": {
+        "ResourceName": "[crimera/revanced-integrations](https://github.com/crimera/revanced-integrations/releases/tag/v1.21.1)",
+        "Version": "v1.21.1",
+        "Changelog": "## [1.21.1](https://github.com/crimera/revanced-integrations/compare/v1.21.0...v1.21.1) (2024-07-24)\n\n\n### Bug Fixes\n\n* Setting backup preference title ([ca2c5de](https://github.com/crimera/revanced-integrations/commit/ca2c5de5e0317a5aae063da01a73c509eb5e3449))\n\n\n### Updates\n\n* **Twitter - Custom Downloader:** Auto start download when only 1 media is present in a post ([b44f715](https://github.com/crimera/revanced-integrations/commit/b44f7150d1009792f3a409128ddb584da517862c))\n* **Twitter - Custom Downloader:** Save photos in `Picture/Twitter` ([2c8b1bb](https://github.com/crimera/revanced-integrations/commit/2c8b1bb6358d9871710a8b5e275d1f9117177128))\n* **Twitter - Custom Downloader:** The numbers from filename now follows media index from the post. ([b3ab727](https://github.com/crimera/revanced-integrations/commit/b3ab7271df108e542aa80226cb25c0b03fcf38f1))\n\n",
+        "PublishedOn": "2024-07-24T16:03:44Z"
+    },
+    "crimera/piko": {
+        "ResourceName": "[crimera/piko](https://github.com/crimera/piko/releases/tag/v1.32.1-dev.1)",
+        "Version": "v1.32.1-dev.1",
+        "Changelog": "## [1.32.1-dev.1](https://github.com/crimera/piko/compare/v1.32.0...v1.32.1-dev.1) (2024-07-26)\n\n### Updates\n\n* Add spanish to languages ([e9b8efd](https://github.com/crimera/piko/commit/e9b8efdb3570fa516f06a736f2709d1c166df1bf))\n",
+        "PublishedOn": "2024-07-26T14:00:25Z"
+    },
+    "inotia00/revanced-cli": {
+        "ResourceName": "[inotia00/revanced-cli](https://github.com/inotia00/revanced-cli/releases/tag/v4.6.1)",
+        "Version": "v4.6.1",
+        "Changelog": "- build: update dependencies\r\n- feat: rollback the default values of keystore alias and password to CLI v3.0 (compatible with old keystore)\r\n- rollback: move ReVanced Library subproject to another repository\r\n\r\n\u203b support `--unsigned` and `--rip-lib` commands #[j-hc/revanced-cli](https://github.com/j-hc/revanced-cli)",
+        "PublishedOn": "2024-05-08T17:59:05Z"
+    },
+    "inotia00/revanced-integrations": {
+        "ResourceName": "[inotia00/revanced-integrations](https://github.com/inotia00/revanced-integrations/releases/tag/v1.11.3)",
+        "Version": "v1.11.3",
+        "Changelog": "bump v1.11.3",
+        "PublishedOn": "2024-07-27T08:50:21Z"
+    },
+    "inotia00/revanced-patches": {
+        "ResourceName": "[inotia00/revanced-patches](https://github.com/inotia00/revanced-patches/releases/tag/v4.10.3)",
+        "Version": "v4.10.3",
+        "Changelog": "YouTube\r\n==\r\n- feat(YouTube): add `Watch history` patch https://github.com/inotia00/ReVanced_Extended/issues/2275\r\n- feat(YouTube/Client spoof): update hardcoded client version\r\n- feat(YouTube/Description components): add `Hide Contents section` setting https://github.com/inotia00/ReVanced_Extended/issues/2262\r\n- feat(YouTube/Overlay buttons): add patch option `Change top buttons` https://github.com/inotia00/revanced-patches/pull/66\r\n- feat(YouTube/Player components): add `Hide zoom overlay` setting https://github.com/inotia00/revanced-patches/pull/67\r\n- feat(YouTube/Video playback): show AlertDialog when changing `Skip preloaded buffer` setting\r\n- fix(YouTube/Client spoof): some side effects of iOS client (No HDR video \u2192 HDR video is supported only on AV1 codec, Higher video qualities may not be available / Live streams not available on Android 8.0 \u2192 fixed) https://github.com/inotia00/ReVanced_Extended/issues/2261\r\n- fix(YouTube/Disable auto captions): turning on `Disable forced auto captions` will disable subtitles https://github.com/inotia00/ReVanced_Extended/issues/2267\r\n- fix(YouTube/Feed components): `Hide recommended videos` setting does not working in home feed https://github.com/inotia00/ReVanced_Extended/issues/2220\r\n- fix(YouTube/Hide feed components): `Hide carousel shelf` setting sometimes hides the Watch history in the You tab\r\n- fix(YouTube/SponsorBlock): the new SponsorBlock segment popup doesn't show minutes in the timestamp https://github.com/inotia00/ReVanced_Extended/issues/2263\r\n- fix(YouTube/Toolbar components): turning on the `Hide voice search button` setting makes the margin of the searchbar 0 https://github.com/inotia00/ReVanced_Extended/issues/2270\r\n- refactor(YouTube/Video information): no longer using Java Reflection to speed up method invoke\r\n- feat(YouTube/Translations): update translation\r\n\r\n\r\nYouTube Music\r\n==\r\n- feat(YouTube Music): add support version `7.10.52`\r\n- feat(YouTube Music/Hide layout components): add `Hide settings menu` setting https://github.com/inotia00/ReVanced_Extended/issues/1899\r\n- refactor(YouTube Music/Settings): fix unchecked cast\r\n- feat(YouTube Music/Translations): update translation\r\n\r\n\r\nShared\r\n==\r\n- chore: improve patch descriptions https://github.com/inotia00/revanced-patches/pull/65\r\n\r\n\r\nAnnouncement\r\n==\r\n- **There is a change in `options.json`. If you see warnings related to patch options, remove the `options.json` file or `Patch options`.**\r\n- YouTube's support version has been rolled back to 19.16.39 for the following reasons: https://github.com/inotia00/ReVanced_Extended/issues/2241.\r\n- Reddit 2024.18.0+ can only be patched via [CLI](https://github.com/inotia00/revanced-documentation/blob/main/docs/latest-reddit-patch-info.md) or rvx-builder..\r\n- Compatible ReVanced Manager: [RVX Manager v1.20.4 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.20.4), [RVX Manager v1.18.1 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.18.1).\r\n\r\n\r\nContribute to translation\r\n==\r\n- [YouTube](https://crowdin.com/project/revancedextended)\r\n- [YT Music](https://crowdin.com/project/revancedmusicextended)",
+        "PublishedOn": "2024-07-27T08:50:24Z"
+    },
+    "revanced/revanced-patches": {
+        "ResourceName": "[revanced/revanced-patches](https://github.com/ReVanced/revanced-patches/releases/tag/v4.12.0-dev.8)",
+        "Version": "v4.12.0-dev.8",
+        "Changelog": "# [4.12.0-dev.8](https://github.com/ReVanced/revanced-patches/compare/v4.12.0-dev.7...v4.12.0-dev.8) (2024-07-26)\n\n\n### Bug Fixes\n\n* **YouTube - SponsorBlock:** Correctly show minute timestamp when creating a new segment ([d74c366](https://github.com/ReVanced/revanced-patches/commit/d74c366dbf5f25c20fbfc5a0157c3c15dda82a16))\n\n\n\n",
+        "PublishedOn": "2024-07-26T14:39:29Z"
+    }
+}
