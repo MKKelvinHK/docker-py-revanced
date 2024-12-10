@@ -1,1 +1,68 @@
-{}
+{
+    "ReVanced/GmsCore": {
+        "ResourceName": "[ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases/tag/v0.3.1.4.240913)",
+        "Version": "v0.3.1.4.240913",
+        "Changelog": "# Download\r\n\r\n| Default | Huawei |\r\n| -------- | -------- |\r\n| [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-signed.apk) |  [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-hw-signed.apk) |\r\n",
+        "PublishedOn": "2024-04-05T02:37:11Z"
+    },
+    "revanced/revanced-integrations": {
+        "ResourceName": "[revanced/revanced-integrations](https://github.com/ReVanced/revanced-integrations/releases/tag/v1.17.0-dev.6)",
+        "Version": "v1.17.0-dev.6",
+        "Changelog": "# [1.17.0-dev.6](https://github.com/ReVanced/revanced-integrations/compare/v1.17.0-dev.5...v1.17.0-dev.6) (2024-10-24)\n\n\n### Bug Fixes\n\n* **YouTube - Hide ads:** Hide new type of ad ([b94d2da](https://github.com/ReVanced/revanced-integrations/commit/b94d2da0b2ef54e8b5e29eefb45c6a58a852cdb2))\n\n\n\n",
+        "PublishedOn": "2024-10-24T12:54:42Z"
+    },
+    "ReVanced/revanced-manager": {
+        "ResourceName": "[ReVanced/revanced-manager](https://github.com/ReVanced/revanced-manager/releases/tag/v1.23.2)",
+        "Version": "v1.23.2",
+        "Changelog": "## [1.23.2](https://github.com/ReVanced/revanced-manager/compare/v1.23.1...v1.23.2) (2024-11-12)\n\n\n### Bug Fixes\n\n* Handle migration of default URL used in v1.22 as well ([851b06b](https://github.com/ReVanced/revanced-manager/commit/851b06b0d277c841a631a2298647e02b781203f8))\n\n\n\n",
+        "PublishedOn": "2024-11-12T23:45:36Z"
+    },
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.1)",
+        "Version": "V1.4.1",
+        "Changelog": "## What's Changed\r\n* More `info` functions: locales, languages, configurations, strings by @REAndroid in https://github.com/REAndroid/APKEditor/pull/132\r\n* Strong resource protection by @REAndroid in https://github.com/REAndroid/APKEditor/pull/133\r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.4.0...V1.4.1",
+        "PublishedOn": "2024-10-01T21:32:59Z"
+    },
+    "revanced/revanced-cli": {
+        "ResourceName": "[revanced/revanced-cli](https://github.com/ReVanced/revanced-cli/releases/tag/v5.0.0)",
+        "Version": "v5.0.0",
+        "Changelog": "# [5.0.0](https://github.com/ReVanced/revanced-cli/compare/v4.6.0...v5.0.0) (2024-11-10)\n\n\n### Bug Fixes\n\n* Check for null when no device serial was specified ([1da8ae9](https://github.com/ReVanced/revanced-cli/commit/1da8ae9e46000dd3c4eecd793c559e75012cf535))\n* List if patch option is required ([#346](https://github.com/ReVanced/revanced-cli/issues/346)) ([98ff0c3](https://github.com/ReVanced/revanced-cli/commit/98ff0c34fa71c3b3ecd96157d45a30ee2b8979c6))\n* Make CLI ArgGroup non-exclusive to be able to disable and enable patches at the same time ([1bb0d13](https://github.com/ReVanced/revanced-cli/commit/1bb0d13726fd5790c59cb6d28df3618c7606710d))\n* Make patches selectable by using a mutable collection for the selection option ([751fa1d](https://github.com/ReVanced/revanced-cli/commit/751fa1d889f40c51b291116029fd84f2b051f2f0))\n* Make the patch command work without specifying any selection ([ba159a3](https://github.com/ReVanced/revanced-cli/commit/ba159a35a9a99d18a4c1e04128b08ae336a49b3e))\n* Print in new line correctly ([c2dc9d7](https://github.com/ReVanced/revanced-cli/commit/c2dc9d76be33c98284741e23c406500483c47753))\n* Use the first connected device when no ADB device is specified ([5f952f3](https://github.com/ReVanced/revanced-cli/commit/5f952f35f5cb388b6509b2b4d905b8143ebc7996))\n\n\n### Features\n\n* Set patch options via CLI ([#336](https://github.com/ReVanced/revanced-cli/issues/336)) ([2300243](https://github.com/ReVanced/revanced-cli/commit/23002434b2d51c2a3b30b33dd0526261432d90ce))\n* Show error about no installation device found at the beginning ([3300e6b](https://github.com/ReVanced/revanced-cli/commit/3300e6b4333ed1c4e6785cb82eca9016fc6d4a20))\n* Simplify command and option names and descriptions ([#338](https://github.com/ReVanced/revanced-cli/issues/338)) ([6e7797a](https://github.com/ReVanced/revanced-cli/commit/6e7797a3f0525a8f48af7182157da0d045600ac2))\n* Simplify option descriptions ([45c998b](https://github.com/ReVanced/revanced-cli/commit/45c998b335b65ac233fece8b804dc7410142691c))\n\n\n### BREAKING CHANGES\n\n* Options have been renamed.\n* This commit changes various CLI options and removes the `options.json` file. Instead, patch options can now be passed via CLI options\n\n\n\n",
+        "PublishedOn": "2024-11-10T14:58:04Z"
+    },
+    "crimera/revanced-integrations": {
+        "ResourceName": "[crimera/revanced-integrations](https://github.com/crimera/revanced-integrations/releases/tag/v1.36.0-dev.1)",
+        "Version": "v1.36.0-dev.1",
+        "Changelog": "## [1.36.0-dev.1](https://github.com/crimera/revanced-integrations/compare/v1.35.1-dev.1...v1.36.0-dev.1) (2024-12-09)\n\n\n### Features\n\n* **Twitter:** Added `Customize search suggestions` patch ([936a167](https://github.com/crimera/revanced-integrations/commit/936a16770e6eb5a5e1ec98a6ca55279914321920))\n* **Twitter:** Added `Customize search tab items` patch ([7f47bb3](https://github.com/crimera/revanced-integrations/commit/7f47bb335d3e3f1c62e8c3c9a8160320e7b078c9))\n* **Twitter:** Added `Remove top people in search` patch ([dd19233](https://github.com/crimera/revanced-integrations/commit/dd192335447861948c8ee867fa2483369b1cb92d))\n\n\n### Refactors\n\n* **Twitter:** Added empty check for choices during Customisation ([296dd1c](https://github.com/crimera/revanced-integrations/commit/296dd1cb79534ce5baa9e7951572971d9a8f270b))\n* **Twitter:** Strings in 'About' ([89c169f](https://github.com/crimera/revanced-integrations/commit/89c169fa54f6b9e10e75a9841121deb43531f465))\n\n",
+        "PublishedOn": "2024-12-09T06:22:37Z"
+    },
+    "crimera/piko": {
+        "ResourceName": "[crimera/piko](https://github.com/crimera/piko/releases/tag/v1.47.0-dev.1)",
+        "Version": "v1.47.0-dev.1",
+        "Changelog": "## [1.47.0-dev.1](https://github.com/crimera/piko/compare/v1.46.1...v1.47.0-dev.1) (2024-12-09)\n\n### Features\n\n* **Twitter:** Added `Customize search suggestions` patch ([aaca565](https://github.com/crimera/piko/commit/aaca565c650d6cf4b2cbb8abf2e206efe9983cb1))\n* **Twitter:** Added `Customize search tab items` patch ([9edc97a](https://github.com/crimera/piko/commit/9edc97a89e61f28a5cd9a419d167a6c51a1a9816))\n* **Twitter:** Added `Remove top people in search` patch ([95b5ef9](https://github.com/crimera/piko/commit/95b5ef902e6f595093b2304e5b2a8189f273389c))\n\n### Refactors\n\n* **Twitter:** Strings in 'Customization' ([c52c2c0](https://github.com/crimera/piko/commit/c52c2c01948bdea5593636a99502d8b5c6c41dca))\n* **Twitter:** Strings in 'Customization' ([a75221b](https://github.com/crimera/piko/commit/a75221b80c1d3223b88890a95ca1610432defbe2))\n",
+        "PublishedOn": "2024-12-09T06:21:43Z"
+    },
+    "inotia00/revanced-cli": {
+        "ResourceName": "[inotia00/revanced-cli](https://github.com/inotia00/revanced-cli/releases/tag/v5.0.1)",
+        "Version": "v5.0.1",
+        "Changelog": "- Based on ReVanced Cli [5.0.0](https://github.com/ReVanced/revanced-cli/tree/v5.0.0)\r\n- Added option command `options` (`options.json` file generator)\r\n- Added option command `patches` (`patches.json` file generator)\r\n- Added option command `--legacy-options` (set patch option via options.json file)\r\n- Added option command `--rip-libs` (remove native libs from apk)\r\n- Added option command `--unsigned` (disable signing of the final apk, regardless of whether it is mounted or not)\r\n- Added support anti-split (merged some [REAndroid/ARSCLib](https://github.com/REAndroid/ARSCLib) sources to implement anti-split)\r\n\r\n",
+        "PublishedOn": "2024-12-08T09:50:42Z"
+    },
+    "inotia00/revanced-integrations": {
+        "ResourceName": "[inotia00/revanced-integrations](https://github.com/inotia00/revanced-integrations/releases/tag/v1.16.1)",
+        "Version": "v1.16.1",
+        "Changelog": "bump v1.16.1",
+        "PublishedOn": "2024-11-08T13:43:58Z"
+    },
+    "inotia00/revanced-patches": {
+        "ResourceName": "[inotia00/revanced-patches](https://github.com/inotia00/revanced-patches/releases/tag/v5.1.1-dev.1)",
+        "Version": "v5.1.1-dev.1",
+        "Changelog": "YouTube\r\n==\r\n- feat(YouTube): Support version `19.34.42`\r\n\r\n\r\nAnnouncement\r\n==\r\n- YouTube Music's support version has been rolled back to **7.16.53** for the following reasons: https://github.com/inotia00/ReVanced_Extended/issues/2382.\r\n- Reddit 2024.18.0+ can only be patched via [CLI](https://github.com/inotia00/revanced-documentation/blob/main/docs/latest-reddit-patch-info.md) or rvx-builder.\r\n- Compatible ReVanced Manager: [RVX Manager v1.23.5 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.23.5).\r\n\r\n\r\nContribute to translation\r\n==\r\n- [YouTube](https://crowdin.com/project/revancedextended)\r\n- [YT Music](https://crowdin.com/project/revancedmusicextended)",
+        "PublishedOn": "2024-12-09T13:52:17Z"
+    },
+    "revanced/revanced-patches": {
+        "ResourceName": "[revanced/revanced-patches](https://github.com/ReVanced/revanced-patches/releases/tag/v5.4.0-dev.3)",
+        "Version": "v5.4.0-dev.3",
+        "Changelog": "# [5.4.0-dev.3](https://github.com/ReVanced/revanced-patches/compare/v5.4.0-dev.2...v5.4.0-dev.3) (2024-12-09)\n\n\n### Bug Fixes\n\n* **TikTok - Settings:** Use correct colors for dark mode ([#4087](https://github.com/ReVanced/revanced-patches/issues/4087)) ([6bd22ff](https://github.com/ReVanced/revanced-patches/commit/6bd22ffa7e8af4d8f5d2d3b1711bd92c44b4e4aa))\n\n\n\n",
+        "PublishedOn": "2024-12-09T20:51:18Z"
+    }
+}
