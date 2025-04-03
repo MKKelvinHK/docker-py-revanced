@@ -1,1 +1,923 @@
-{}
+{
+    "youtube": {
+        "app_version": "19.16.39",
+        "integrations_version": "v1.11.3",
+        "patches_version": "v4.10.3",
+        "cli_version": "v4.6.1",
+        "patches_json_version": "v4.10.3",
+        "ms_epoch_since_patched": 1722102261202,
+        "date_patched": "2024-07-27 17:44:21.201669+05:30",
+        "app_dump": {
+            "app_name": "youtube",
+            "app_version": "19.16.39",
+            "experiment": false,
+            "cli_dl": "https://github.com/inotia00/revanced-cli/releases",
+            "patches_dl": "https://github.com/inotia00/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/inotia00/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/inotia00/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [
+                "alternative-thumbnails",
+                "disable-haptic-feedback",
+                "disable-splash-animation"
+            ],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "ambient-mode-control",
+                "change-player-flyout-menu-toggles",
+                "change-shorts-repeat-state",
+                "change-start-page",
+                "custom-branding-icon-youtube",
+                "custom-branding-name-youtube",
+                "custom-double-tap-length",
+                "custom-package-name",
+                "description-components",
+                "disable-quic-protocol",
+                "disable-auto-audio-tracks",
+                "disable-resuming-shorts-on-startup",
+                "enable-debug-logging",
+                "enable-external-browser",
+                "enable-gradient-loading-screen",
+                "enable-minimized-playback",
+                "enable-open-links-directly",
+                "enable-tablet-mini-player",
+                "fullscreen-components",
+                "gmscore-support",
+                "hide-action-buttons",
+                "hide-ads",
+                "hide-comments-component",
+                "hide-double-tap-overlay-filter",
+                "hide-feed-components",
+                "hide-feed-flyout-menu",
+                "hide-layout",
+                "components",
+                "hide-player-button-background",
+                "hide-player-flyout-menu",
+                "layout-switch",
+                "materialyou",
+                "navigation-bar-components",
+                "overlay-buttons",
+                "player-components",
+                "remove-viewer-discreation-dialog",
+                "return-youtube-dislike",
+                "sanitize-sharing-links",
+                "seekbar-components",
+                "settings",
+                "shorts-components",
+                "shorts-outline-button",
+                "sponsorblock",
+                "spoof-app-version",
+                "spoof-format-stream-data",
+                "spoof-test-client",
+                "swipe-controls",
+                "theme",
+                "toolbar-components",
+                "translations",
+                "video-playback"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "9c384aebb3e559204327e7e650ce3a6226477f40c4eb18a0e3b6057e4b9961f7.jar",
+                    "version": "v4.6.1"
+                },
+                "integrations": {
+                    "file_name": "7d1b634d33dd02e164a39297f3e67c41e1317cb489ad7e2c8bc7bf8b764a88dd.apk",
+                    "version": "v1.11.3"
+                },
+                "patches": {
+                    "file_name": "53fa9c71e5045b161322037a245457ed0beeb5336d35ae2ec6421ae8a3303c8c.jar",
+                    "version": "v4.10.3"
+                },
+                "patches_json": {
+                    "file_name": "92048c84d7fb17c18a6526ecb8b8e858e5056872d778901043573ea8efe79d4a.json",
+                    "version": "v4.10.3"
+                }
+            },
+            "no_of_patches": 57,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "youtube.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=6148753&key=b1c5e70785a10d8d592047f508c958dae5be6e09&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube/",
+            "package_name": "com.google.android.youtube",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "youtube_music": {
+        "app_version": "6.50.51",
+        "integrations_version": "v1.11.3",
+        "patches_version": "v4.10.3",
+        "cli_version": "v4.6.1",
+        "patches_json_version": "v4.10.3",
+        "ms_epoch_since_patched": 1722102341183,
+        "date_patched": "2024-07-27 17:45:41.182725+05:30",
+        "app_dump": {
+            "app_name": "youtube_music",
+            "app_version": "6.50.51",
+            "experiment": true,
+            "cli_dl": "https://github.com/inotia00/revanced-cli/releases",
+            "patches_dl": "https://github.com/inotia00/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/inotia00/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/inotia00/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [
+                "disable-auto-captions"
+            ],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "amoled",
+                "bitrate-defaut-value",
+                "certificate-spoof",
+                "change-start-page",
+                "custom-branding-icon-youtube-music",
+                "custom-branding-name-youtube-music",
+                "custom-package-name",
+                "disable-dislike-redirection",
+                "enable-debug-logging",
+                "enable-landscape-mode",
+                "enable-minimized-playback",
+                "enable-opus-codec",
+                "flyout-menu-components",
+                "gmscore-support",
+                "hide-account-components",
+                "hide-action-bar-components",
+                "hide-ads",
+                "hide-double-tap-overlay-filter",
+                "hide-layout-components",
+                "hide-overlay-filter",
+                "hide-player-overlay-filter",
+                "navigation-bar-components",
+                "player-components",
+                "remove-viewer-discreation-dialog",
+                "replace-cast-botton",
+                "restore-old-style-library-shelf",
+                "return-youtube-dislike",
+                "sanitize-sharing-links",
+                "settings",
+                "sponsorblock",
+                "spoof-app-version",
+                "translations",
+                "video-playback"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "9c384aebb3e559204327e7e650ce3a6226477f40c4eb18a0e3b6057e4b9961f7.jar",
+                    "version": "v4.6.1"
+                },
+                "integrations": {
+                    "file_name": "7d1b634d33dd02e164a39297f3e67c41e1317cb489ad7e2c8bc7bf8b764a88dd.apk",
+                    "version": "v1.11.3"
+                },
+                "patches": {
+                    "file_name": "53fa9c71e5045b161322037a245457ed0beeb5336d35ae2ec6421ae8a3303c8c.jar",
+                    "version": "v4.10.3"
+                },
+                "patches_json": {
+                    "file_name": "92048c84d7fb17c18a6526ecb8b8e858e5056872d778901043573ea8efe79d4a.json",
+                    "version": "v4.10.3"
+                }
+            },
+            "no_of_patches": 34,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "youtube_music.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=6159847&key=0fe757d0f0cd58010bc43064569e5bbfdbd8ad34&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube-music/",
+            "package_name": "com.google.android.apps.youtube.music",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "twitter": {
+        "app_version": "10-51-1-release-0-310511000",
+        "integrations_version": "v1.21.1",
+        "patches_version": "v1.32.1-dev.1",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v1.32.1-dev.1",
+        "ms_epoch_since_patched": 1722102215862,
+        "date_patched": "2024-07-27 17:43:35.862109+05:30",
+        "app_dump": {
+            "app_name": "twitter",
+            "app_version": "10-51-1-release-0-310511000",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "https://github.com/crimera/piko/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/crimera/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/crimera/piko/releases/latest-prerelease",
+            "exclude_request": [
+                "hide-banner",
+                "hide-fab",
+                "show-sensitive-media",
+                "remove-view-count",
+                "hide-for-you",
+                "hide-community-notes",
+                "hide-for-you"
+            ],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "dynamic-color",
+                "hide-live-threads",
+                "no-shortened-url",
+                "clear-tracking-params",
+                "selectable-text",
+                "bring-back-twitter",
+                "hide-recommended-users",
+                "hide-fab-menu-buttons",
+                "remove-ads",
+                "remove-google-ads",
+                "google-ads-patch",
+                "hide-promoted-trends",
+                "download-patch",
+                "enable-custom-app-icon-and-nav-icon-settings",
+                "enable-reader-mode",
+                "enable-undo-posts",
+                "disable-chirp-font",
+                "adds-settings",
+                "custom-download-folder",
+                "remove-detailed-posts",
+                "remove-revisit-bookmark-banner",
+                "remove-pinned-posts-by-followers-banner",
+                "remove-creators-to-subscribe-banner",
+                "remove-communities-to-join-banner",
+                "remove-who-to-follow-banner",
+                "open-browser-chooser-on-opening-links",
+                "custom-sharing-domain"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "35294fc533298e9fb6a2b64f1a6219b326f4619a5e32ff4f9b24352f94fd7e9b.apk",
+                    "version": "v1.21.1"
+                },
+                "patches": {
+                    "file_name": "a9cd80165d07e34d222db41b0a752c5d2173bbf29cc6c87b15070e91acbf832c.jar",
+                    "version": "v1.32.1-dev.1"
+                },
+                "patches_json": {
+                    "file_name": "eef790426246881c3a9a62ad2a452cc07bb9161372e1a5f2c71c42dfa6054588.json",
+                    "version": "v1.32.1-dev.1"
+                }
+            },
+            "no_of_patches": 49,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "twitter.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=6693197&key=cac5364bcebbae491e071c3e822dc3a2e00f6ec8",
+            "download_source": "https://www.apkmirror.com/apk/x-corp/twitter/",
+            "package_name": "com.twitter.android",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "reddit": {
+        "app_version": "2024.17.0",
+        "integrations_version": "v1.10.2",
+        "patches_version": "v4.9.2",
+        "cli_version": "v4.6.1",
+        "patches_json_version": "v4.9.2",
+        "ms_epoch_since_patched": 1719164567498,
+        "date_patched": "2024-06-23 17:42:47.498189+05:30",
+        "app_dump": {
+            "app_name": "reddit",
+            "app_version": "2024.17.0",
+            "experiment": false,
+            "cli_dl": "https://github.com/inotia00/revanced-cli/releases",
+            "patches_dl": "https://github.com/inotia00/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/inotia00/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/inotia00/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [
+                "change-package-name",
+                "custom-branding-name-reddit"
+            ],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "hide-recently-visited-shelf",
+                "open-links-directly",
+                "open-links-externally",
+                "premium-icon",
+                "remove-subreddit-dialog",
+                "sanitize-sharing-links",
+                "settings"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "9c384aebb3e559204327e7e650ce3a6226477f40c4eb18a0e3b6057e4b9961f7.jar",
+                    "version": "v4.6.1"
+                },
+                "integrations": {
+                    "file_name": "401c1ca5edbb3d2dc87d3e9e191a1f3e64b312fed92a91bd1c6085c06af0c9aa.apk",
+                    "version": "v1.10.2"
+                },
+                "patches": {
+                    "file_name": "b3d0240e5d98c59b8276afe785562796f5703595d9ec27165278520c35cbc356.jar",
+                    "version": "v4.9.2"
+                },
+                "patches_json": {
+                    "file_name": "a6d007013a83ad0a1ac8346624936345717b6c5fd92dd5d37dc266cd0edd9c66.json",
+                    "version": "v4.9.2"
+                }
+            },
+            "no_of_patches": 14,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "reddit.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/x8M_3F3diIIkrSCg_UolIX4mSmd2Bu2ky2wMSOh4AuHik03p8AhfrNidhwrxWW3DkR9JrtK0eZbv2afbnLMF6Q_5NwxeeBw2ZtJKDQEhMa6Z3DqZS2IXaxg1e_GJEmyl/f4zUly-e-s9HuT59SZx0b_tmGsp2Vjga72fDaLnAXNQEiUFdXoZXSNB7XObchUUDotZegSLyzz9WwXEUttXON1qOvxJTqABgJe3pmRwlcvmLKVQ8we9WHz9sC2uHWC98/SYN0r7X23516bNhVMpKtbyMkUiIdIw3gPb__jWrIPIp2s3q2Lx_pVmjpjLZKPRPF22chDydjfgRgiC4Z89RNQp_ZR7PEoZI3SKwvPnxsPK4=/",
+            "download_source": "https://reddit-official-app.jp.uptodown.com/android",
+            "package_name": "com.reddit.frontpage",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "twitch": {
+        "app_version": "16.9.1",
+        "integrations_version": "v1.11.0-dev.5",
+        "patches_version": "v4.10.0-dev.6",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0-dev.6",
+        "ms_epoch_since_patched": 1718258686504,
+        "date_patched": "2024-06-13 06:04:46.503808+05:30",
+        "app_dump": {
+            "app_name": "twitch",
+            "app_version": "16.9.1",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "debug-mode",
+                "settings",
+                "block-embedded-ads",
+                "block-video-ads",
+                "block-audio-ads",
+                "auto-claim-channel-points",
+                "show-deleted-messages"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "292f3f8663a920ccb2ad4fd9076279d9aa616035ba99bdacaed1c8ebdab8acd1.apk",
+                    "version": "v1.11.0-dev.5"
+                },
+                "patches": {
+                    "file_name": "70cbc34ff71ff8881421d49b6eaede7fa333609d01e86799c754a8ae9ee8f11a.jar",
+                    "version": "v4.10.0-dev.6"
+                },
+                "patches_json": {
+                    "file_name": "771259b5d327a93e406e6a58cb5212619803a4e2d44bdd3855300a27a1b33bc1.json",
+                    "version": "v4.10.0-dev.6"
+                }
+            },
+            "no_of_patches": 7,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "twitch.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/VkQiU0CezLeCmRhzut2gI1vm6tmdqhfE_xqHDIKrmpRFSCO4vOJW1FWftBkbfnp2Jtk0F3YdD5rSZE-rFs4h48aaxw8CZaLWoQ76FFJUgCKJnfyOnaPgsDEWNPERbkGa/RCBTdZtf0C_DntKkjEOV1mRgFhNfEucBsv8XVMl5hEJ5Q9yMkdCHHpmwHn5O1GOrcfAAUSumPZJoYFvhz9dbxJfM3J-O7Pr5loXrXz-dbF3Q8EQWjzaQk9iV-EbUvYyf/5Bdchp1-yE6EbPeodJudlwMkHHqV7O1v1St2iAzBlmqZmdQXkpFf21QPu-Zqie2Q9Gz-B8n5-oiOCLHUjLRwhQ==/",
+            "download_source": "https://twitch.jp.uptodown.com/android",
+            "package_name": "tv.twitch.android.app",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "windy": {
+        "app_version": "34.0.2",
+        "integrations_version": "v1.12.0-dev.3",
+        "patches_version": "v4.12.0-dev.8",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.12.0-dev.8",
+        "ms_epoch_since_patched": 1722102376584,
+        "date_patched": "2024-07-27 17:46:16.584522+05:30",
+        "app_dump": {
+            "app_name": "windy",
+            "app_version": "34.0.2",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "unlock-pro"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "67441376a9de9cc10f6b12b6824cf3d440afb0810bb409867e52424b7130dfac.apk",
+                    "version": "v1.12.0-dev.3"
+                },
+                "patches": {
+                    "file_name": "67aac6a0334d9b1b2bd10190ee8f7f0356f833462c07ae35d49c6a4431102334.jar",
+                    "version": "v4.12.0-dev.8"
+                },
+                "patches_json": {
+                    "file_name": "4d8b90fd70958c12c98492d3b491ce3ced23e5059cf89750b211e3f451e6708b.json",
+                    "version": "v4.12.0-dev.8"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "windy.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=4275158&key=198428de9acb720013f3540be300d32bfca20a96&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/",
+            "package_name": "co.windyapp.android",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "candyvpn": {
+        "app_version": "4-0-2-289",
+        "integrations_version": "v1.12.0-dev.3",
+        "patches_version": "v4.12.0-dev.8",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.12.0-dev.8",
+        "ms_epoch_since_patched": 1722102720746,
+        "date_patched": "2024-07-27 17:52:00.745831+05:30",
+        "app_dump": {
+            "app_name": "candyvpn",
+            "app_version": "4-0-2-289",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "unlock-pro"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "67441376a9de9cc10f6b12b6824cf3d440afb0810bb409867e52424b7130dfac.apk",
+                    "version": "v1.12.0-dev.3"
+                },
+                "patches": {
+                    "file_name": "67aac6a0334d9b1b2bd10190ee8f7f0356f833462c07ae35d49c6a4431102334.jar",
+                    "version": "v4.12.0-dev.8"
+                },
+                "patches_json": {
+                    "file_name": "4d8b90fd70958c12c98492d3b491ce3ced23e5059cf89750b211e3f451e6708b.json",
+                    "version": "v4.12.0-dev.8"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "candyvpn.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=6585224&key=195e598b08d771dc1de526167bb827170b6a297d&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/liondev-io/candylink-vpn/",
+            "package_name": "com.candylink.openvpn",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "microg": {
+        "app_version": "latest",
+        "integrations_version": "v1.12.0-dev.3",
+        "patches_version": "v4.12.0-dev.8",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.12.0-dev.8",
+        "ms_epoch_since_patched": 1722102318021,
+        "date_patched": "2024-07-27 17:45:18.021564+05:30",
+        "app_dump": {
+            "app_name": "microg",
+            "app_version": "latest",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "67441376a9de9cc10f6b12b6824cf3d440afb0810bb409867e52424b7130dfac.apk",
+                    "version": "v1.12.0-dev.3"
+                },
+                "patches": {
+                    "file_name": "67aac6a0334d9b1b2bd10190ee8f7f0356f833462c07ae35d49c6a4431102334.jar",
+                    "version": "v4.12.0-dev.8"
+                },
+                "patches_json": {
+                    "file_name": "4d8b90fd70958c12c98492d3b491ce3ced23e5059cf89750b211e3f451e6708b.json",
+                    "version": "v4.12.0-dev.8"
+                }
+            },
+            "no_of_patches": 0,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "microg.apk",
+            "download_dl": "https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-signed.apk",
+            "download_source": "https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-signed.apk",
+            "package_name": "app.revanced.android.gms",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "pixiv": {
+        "app_version": "latest",
+        "integrations_version": "v1.11.0",
+        "patches_version": "v4.10.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0",
+        "ms_epoch_since_patched": 1719165049127,
+        "date_patched": "2024-06-23 17:50:49.127056+05:30",
+        "app_dump": {
+            "app_name": "pixiv",
+            "app_version": "latest",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [],
+            "include_request": [
+                "premove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "hide-ads"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4871f60e7a93ea05c2763e6cc2c917b544e8f1c1216afeee61ef0e9dd91d7b62.apk",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "dd972cd53ff03e2699c94243dcf8d3da42b5f198c7483ea7601be0728d35e97b.jar",
+                    "version": "v4.10.0"
+                },
+                "patches_json": {
+                    "file_name": "83b3108021f70446a0945e5af106577a21a7179c1c1c6c5d636cc0a6b9c2aa9d.json",
+                    "version": "v4.10.0"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "pixiv.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/x8M_3F3diIIkrSCg_UolIX4mSmd2Bu2ky2wMSOh4AuEHFyAvSWKnxH8CmO_7Aka4pucNhH_bLaQ11OIkJ2AZfYc_aY6NVuGXKvN25HgGfZX_ZXCmX0NBDFGl4cl9S_s6/ed9iPLzXsYn9Gu-gH4aLQlAOp1qM78W1wx6vYpR_OwN1M-IbVyAnxKHPk2kDkgsSwjZkPEJf50VCZ4Ce0poBDardHR4psJFLuCnWrGCkBvyybHzLUqRzma3MNPR4Y3eb/Rx2-eSZgYwWncV953v2-paZ6iERiGPVgyRjOrd2nzPoywHo2oNiT6yA-PgcNrnly/",
+            "download_source": "https://pixiv.jp.uptodown.com/android",
+            "package_name": "jp.pxv.android",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "solidexplorer": {
+        "app_version": "latest",
+        "integrations_version": "v1.11.0",
+        "patches_version": "v4.10.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.10.0",
+        "ms_epoch_since_patched": 1719165075580,
+        "date_patched": "2024-06-23 17:51:15.579920+05:30",
+        "app_dump": {
+            "app_name": "solidexplorer",
+            "app_version": "latest",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [],
+            "include_request": [
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "remove-file-size-limit"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4871f60e7a93ea05c2763e6cc2c917b544e8f1c1216afeee61ef0e9dd91d7b62.apk",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "dd972cd53ff03e2699c94243dcf8d3da42b5f198c7483ea7601be0728d35e97b.jar",
+                    "version": "v4.10.0"
+                },
+                "patches_json": {
+                    "file_name": "83b3108021f70446a0945e5af106577a21a7179c1c1c6c5d636cc0a6b9c2aa9d.json",
+                    "version": "v4.10.0"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "solidexplorer.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/x8M_3F3diIIkrSCg_UolIX4mSmd2Bu2ky2wMSOh4AuEmtVcNLjbnFu3L-xGWpCYiiKZlYl7mTo8CTeZnR0cWpAtY1VV-9hW1sIKEKtnMoPbS4wYNZ5_hgC2ksZOXOYo3/tlv0g52jSFksj7-ih60vFgfKVMBQ9GinCqo7bMOkMz65lDTIcOe-qo72UQpriRpj2sBONVGm5pxyywgz-SiKDGUOTaR9axjl9QLU2wcpLg_fFVf9ZDqnclp446lHmY3z/5KVgBIWg3Y-4vJlF7RnBemfvA-Eht5hS9DdkEI6SRe0415qYNXz7DzFnR7YOOcFsyyhbcGMhMW7EPnmzobVD_5eDCXAIw6Uz3gYiqbgvfCAYZDqdn1tkoPFYPX7E7jeQ/",
+            "download_source": "https://solid-explorer-file-manager.jp.uptodown.com/android",
+            "package_name": "pl.solidexplorer2",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "vanced": {
+        "app_version": "17-03-38-1527248320",
+        "integrations_version": "v1.12.0-dev.3",
+        "patches_version": "v4.12.0-dev.8",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.12.0-dev.8",
+        "ms_epoch_since_patched": 1722102780183,
+        "date_patched": "2024-07-27 17:53:00.183111+05:30",
+        "app_dump": {
+            "app_name": "vanced",
+            "app_version": "17-03-38-1527248320",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture",
+                "spoof-sim-country"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "67441376a9de9cc10f6b12b6824cf3d440afb0810bb409867e52424b7130dfac.apk",
+                    "version": "v1.12.0-dev.3"
+                },
+                "patches": {
+                    "file_name": "67aac6a0334d9b1b2bd10190ee8f7f0356f833462c07ae35d49c6a4431102334.jar",
+                    "version": "v4.12.0-dev.8"
+                },
+                "patches_json": {
+                    "file_name": "4d8b90fd70958c12c98492d3b491ce3ced23e5059cf89750b211e3f451e6708b.json",
+                    "version": "v4.12.0-dev.8"
+                }
+            },
+            "no_of_patches": 0,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "vanced.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=3181322&key=b9c27ac03d7b49d2ab3bcb97a01a32605ccd6482",
+            "download_source": "https://www.apkmirror.com/apk/team-vanced/youtube-vanced/",
+            "package_name": "com.vanced.android.youtube",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "sleep": {
+        "app_version": "latest",
+        "integrations_version": "v1.12.0-dev.3",
+        "patches_version": "latest",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "latest",
+        "ms_epoch_since_patched": 1722102854973,
+        "date_patched": "2024-07-27 17:54:14.973087+05:30",
+        "app_dump": {
+            "app_name": "sleep",
+            "app_version": "latest",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "local://revanced-patches-v2.135.0.jar",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "local://revanced-patches-v2.135.0.json",
+            "exclude_request": [
+                "method-fingerprint",
+                "fingerprint"
+            ],
+            "include_request": [
+                "spoof-sim-country",
+                "predictive-back-gesture"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "67441376a9de9cc10f6b12b6824cf3d440afb0810bb409867e52424b7130dfac.apk",
+                    "version": "v1.12.0-dev.3"
+                },
+                "patches": {
+                    "file_name": "revanced-patches-v2.135.0.jar",
+                    "version": "latest"
+                },
+                "patches_json": {
+                    "file_name": "revanced-patches-v2.135.0.json",
+                    "version": "latest"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "sleep.apk",
+            "download_dl": "https://d.apkpure.com/b/APK/com.urbandroid.sleep?version=latest",
+            "download_source": "https://d.apkpure.com/b/APK/com.urbandroid.sleep?version=latest",
+            "package_name": "com.urbandroid.sleep",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "countryroad": {
+        "app_version": "latest",
+        "integrations_version": "v1.12.0-dev.3",
+        "patches_version": "latest",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "latest",
+        "ms_epoch_since_patched": 1722102860978,
+        "date_patched": "2024-07-27 17:54:20.978233+05:30",
+        "app_dump": {
+            "app_name": "countryroad",
+            "app_version": "latest",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "local://revanced-patches-v2.135.0.jar",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "local://revanced-patches-v2.135.0.json",
+            "exclude_request": [
+                "method-fingerprint",
+                "fingerprint"
+            ],
+            "include_request": [
+                "remove-screenshot-restriction",
+                "remove-screen-capture-restriction",
+                "spoof-sim-country",
+                "predictive-back-gesture"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "67441376a9de9cc10f6b12b6824cf3d440afb0810bb409867e52424b7130dfac.apk",
+                    "version": "v1.12.0-dev.3"
+                },
+                "patches": {
+                    "file_name": "revanced-patches-v2.135.0.jar",
+                    "version": "latest"
+                },
+                "patches_json": {
+                    "file_name": "revanced-patches-v2.135.0.json",
+                    "version": "latest"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "countryroad.apk",
+            "download_dl": "https://d.apkpure.com/b/APK/com.crunchyroll.crunchyroid?version=latest",
+            "download_source": "https://d.apkpure.com/b/APK/com.crunchyroll.crunchyroid?version=latest",
+            "package_name": "com.crunchyroll.crunchyroid",
+            "old_key": true,
+            "space_formatted": true
+        }
+    },
+    "duolingo": {
+        "app_version": "latest",
+        "integrations_version": "v1.12.0-dev.3",
+        "patches_version": "latest",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "latest",
+        "ms_epoch_since_patched": 1722102868156,
+        "date_patched": "2024-07-27 17:54:28.156303+05:30",
+        "app_dump": {
+            "app_name": "duolingo",
+            "app_version": "latest",
+            "experiment": true,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases",
+            "patches_dl": "local://revanced-patches-2.188.0.jar",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations/releases/latest-prerelease",
+            "patches_json_dl": "local://revanced-patches-2.188.0.json",
+            "exclude_request": [
+                "method-fingerprint",
+                "fingerprint"
+            ],
+            "include_request": [
+                "spoof-sim-country",
+                "predictive-back-gesture"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "67441376a9de9cc10f6b12b6824cf3d440afb0810bb409867e52424b7130dfac.apk",
+                    "version": "v1.12.0-dev.3"
+                },
+                "patches": {
+                    "file_name": "revanced-patches-2.188.0.jar",
+                    "version": "latest"
+                },
+                "patches_json": {
+                    "file_name": "revanced-patches-2.188.0.json",
+                    "version": "latest"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "duolingo.apk",
+            "download_dl": "https://d.apkpure.com/b/APK/com.duolingo?version=latest",
+            "download_source": "",
+            "package_name": "com.duolingo",
+            "old_key": true,
+            "space_formatted": true
+        }
+    }
+}
